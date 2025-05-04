@@ -1,8 +1,11 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from joblib import load
 from utils import classify_message
 
 app = Flask(__name__)
+CORS(app)  
+
 model = load("phishing_detector_model.pkl")
 
 @app.route("/predict", methods=["POST"])
