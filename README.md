@@ -1,6 +1,6 @@
 # Phishing Email Detector 
 
-My first machine learning project for detecting phishing emails using text classification. This version is complete with modular code, realistic evaluation metrics, and ready-to-deploy model pipeline.
+Machine learning project for detecting phishing emails using text classification. This version is complete with modular code, realistic evaluation metrics, and ready-to-deploy model pipeline.
 
 ---
 
